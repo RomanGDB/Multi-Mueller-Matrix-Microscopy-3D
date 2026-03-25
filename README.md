@@ -48,7 +48,7 @@ where S_out is obtained from the measured output intensities using the Stokes fo
 
 <pre>
 <p align="center">
-<img width="1518" height="490" alt="mueller" src="https://github.com/user-attachments/assets/6902164a-038d-41d3-8138-8e85b0629eff" />
+<img width="1424" height="490" alt="mueller" src="https://github.com/user-attachments/assets/ee8d6040-89a6-41ff-bab2-2fab0cce7111" />
 </p>
 <p align="center"><b>Figure 3:</b> Transmittance and Mueller matrix </p>
 </pre>
