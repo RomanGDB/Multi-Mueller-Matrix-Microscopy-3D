@@ -52,6 +52,8 @@ pip install git+https://github.com/OrganicIrradiation/opto.git
 ## Related Publications
 
 Roman Demczylo & Ariel Fernández, *Single-shot 3×3 Mueller matrix microscopy with color polarization encoding*, Optics Letters, 2024.  
+Roman Demczylo, Diego Silva, Federico Lecumberry, Ariel Fernández, *Field of view extension in Mueller matrix microscopy for whole-slide imaging of biological samples*, Results in Optics, 2025.
+
 
 ## Contact
 
