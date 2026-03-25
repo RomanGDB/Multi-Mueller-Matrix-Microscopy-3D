@@ -33,7 +33,7 @@ Another important observation concerns the Stokes parameter S3, which was comput
 
 <pre>
 <p align="center">
-<img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/17448914-e423-4c82-a194-f3765dbc076f" />
+<img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/d56d3730-2996-4de7-aec4-16e8d07d2d14" />
 </p>
 <p align="center"><b>Figure 2:</b> Input and Output Stokes </p>
 </pre>
@@ -50,7 +50,7 @@ where S_out is obtained from the measured output intensities using the Stokes fo
 <p align="center">
 <img width="1518" height="490" alt="mueller" src="https://github.com/user-attachments/assets/6902164a-038d-41d3-8138-8e85b0629eff" />
 </p>
-<p align="center"><b>Figure 3:</b> Input and Output Stokes </p>
+<p align="center"><b>Figure 3:</b> Transmittance and Mueller matrix </p>
 </pre>
 
 Finally, a variant of the Lu–Chipman decomposition algorithm is applied to extract the fundamental polarimetric properties: diattenuation, linear retardance, optical axis, and depolarization power. The Mueller matrix M can be expressed as the product of three Mueller matrices associated with depolarization, retardance, and diattenuation, respectively:
@@ -60,31 +60,31 @@ M = M<sub>Δ</sub> · M<sub>R</sub> · M<sub>D</sub>
 </pre>
 
 <p>
-where M<sub>Δ</sub> represents the depolarization matrix, M<sub>R</sub> the retardance matrix, and M<sub>D</sub> the diattenuation matrix.
+where M<sub>Δ</sub> represents the depolarization matrix, M<sub>R</sub> the retardance matrix, and M<sub>D</sub> the diattenuation matrix. Figure 4 illustrates the Lu–Chipman decomposition.
 </p>
 <pre>
 <p align="center">
-<img width="2237" height="488" alt="lu-chipman" src="https://github.com/user-attachments/assets/b3faa038-30b4-40e1-ba43-2df1bd037ad7" />
+<img width="2120" height="489" alt="lu-chipman" src="https://github.com/user-attachments/assets/3d7c5fe4-5b7f-46a3-acfe-92a2e77c4e1a" />
 </p>  
-<p align="center"><b>Figure 4:</b> Imaging acquisition scheme.</p>
+<p align="center"><b>Figure 4:</b> Lu-Chipman decomposition </p>
 </pre>
 
 In Fig. 5, the polarimetric properties can be observed: diattenuation (top left), linear retardance (top right), depolarization power (bottom left), and optical axis (bottom right).
 
 <pre>
 <p align="center">
-<img width="1581" height="1162" alt="propiedades" src="https://github.com/user-attachments/assets/da6835a8-ddee-4f00-a42f-3e21d3293eea" />
+<img width="1553" height="1196" alt="D" src="https://github.com/user-attachments/assets/575468dd-00d6-43b8-985e-61bb4db83924" />
 </p>  
-<p align="center"><b>Figure 5:</b> Imaging acquisition scheme.</p>
+<p align="center"><b>Figure 5:</b> Polarimetric properties </p>
 </pre>
 
-Finally, Fig. 6 presents the histograms of the extracted polarimetric properties.
+Finally, Fig. 6 presents the histograms of the extracted polarimetric properties. As can be observed, the values lie within the physically meaningful range.
 
 <pre>
 <p align="center">
 <img width="1200" height="790" alt="histograma" src="https://github.com/user-attachments/assets/b464fc7b-dbdf-42cf-85cf-93d3ff85f824" />
 </p>  
-<p align="center"><b>Figure 6:</b> Imaging acquisition scheme.</p>
+<p align="center"><b>Figure 6:</b> Histogram of polarimetric properties </p>
 </pre>
 
 
