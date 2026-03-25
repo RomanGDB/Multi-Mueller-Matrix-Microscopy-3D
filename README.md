@@ -64,7 +64,7 @@ where M<sub>Δ</sub> represents the depolarization matrix, M<sub>R</sub> the ret
 </p>
 <pre>
 <p align="center">
-<img width="2560" height="489" alt="lu-chipman" src="https://github.com/user-attachments/assets/8c0b73b9-149f-4e7a-a7ac-fcab2d7f4628" />
+<img width="2237" height="488" alt="lu-chipman" src="https://github.com/user-attachments/assets/b3faa038-30b4-40e1-ba43-2df1bd037ad7" />
 </p>  
 <p align="center"><b>Figure 4:</b> Imaging acquisition scheme.</p>
 </pre>
