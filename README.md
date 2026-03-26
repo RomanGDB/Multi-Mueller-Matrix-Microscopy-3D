@@ -28,9 +28,7 @@ S_in =
 </pre>
 which has a condition number of 3.2.
 
-In Fig. 2, the input and output Stokes vectors corresponding to the green channel are shown. It can be observed that the measured vectors do not exactly match the theoretical ones. However, this is not critical, since the main objective is to estimate the transformation matrix that maps one set of Stokes vectors into another, regardless of whether the individual states perfectly coincide with their expected values.
-
-Another important observation concerns the Stokes parameter S3, which was computed under the assumption of a degree of polarization (DoP) equal to 1. Its sign is initially assigned arbitrarily and is later validated through the analysis of the resulting polarimetric properties.
+In Fig. 2, the input and output Stokes vectors corresponding to the green channel are shown. It can be observed that the measured vectors do not exactly match the theoretical ones. However, this is not critical, since the main objective is to estimate the transformation matrix that maps one set of Stokes vectors into another, regardless of whether the individual states perfectly coincide with their expected values. Another important observation concerns the Stokes parameter S3, which was computed under the assumption of a degree of polarization (DoP) equal to 1. Its sign is initially assigned arbitrarily and is later validated through the analysis of the resulting polarimetric properties.
 
 <pre>
 <p align="center">
