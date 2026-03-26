@@ -101,7 +101,7 @@ https://www.python.org/downloads/
 https://code.visualstudio.com/  
 
 4) Download or clone my github
-https://github.com/RomanGDB/Mueller-Matrix-Microscopy/edit/main/  
+https://github.com/RomanGDB/Mueller-Matrix-Microscopy/  
 
 5) Install Spinnaker SDK  
 https://www.teledynevisionsolutions.com/products/spinnaker-sdk/?model=Spinnaker%20SDK&vertical=machine%20vision&segment=iis  
