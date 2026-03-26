@@ -34,7 +34,7 @@ In Fig. 2, the input and output Stokes vectors corresponding to the green channe
 <p align="center">
 <img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/d56d3730-2996-4de7-aec4-16e8d07d2d14" />
 </p>
-<p align="center"><b>Figure 2:</b> Input and Output Stokes matrix </p>
+<p align="center"><b>Figure 2:</b> Input and Output Stokes matrix of a bee sample </p>
 </pre>
 
 Then, by inverting the input Stokes matrix, the Mueller matrix can be estimated as:
@@ -49,7 +49,7 @@ where S_out is obtained from the measured output intensities using the Stokes fo
 <p align="center">
 <img width="1431" height="490" alt="mueller" src="https://github.com/user-attachments/assets/5d1c7728-8e0b-4801-b952-c035fe34f1d6" />
 </p>
-<p align="center"><b>Figure 3:</b> Transmittance and Mueller matrix </p>
+<p align="center"><b>Figure 3:</b> Transmittance and Mueller matrix of a bee sample </p>
 </pre>
 
 Finally, a variant of the Lu–Chipman decomposition algorithm is applied to extract the fundamental polarimetric properties: diattenuation, linear retardance, optical axis, and depolarization power. The Mueller matrix M can be expressed as the product of three Mueller matrices associated with depolarization, retardance, and diattenuation, respectively:
