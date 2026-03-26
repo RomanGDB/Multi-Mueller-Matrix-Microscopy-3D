@@ -8,7 +8,7 @@ Polarization is a fundamental property of light that can be modeled using four r
 
 <pre>
 <p align="center">
-<img width="4220" height="3910" alt="asdasd" src="https://github.com/user-attachments/assets/51942f32-6881-4255-add2-61a4bdb5fb0d"/>
+<img width="2110" height="1955" alt="asdasd" src="https://github.com/user-attachments/assets/51942f32-6881-4255-add2-61a4bdb5fb0d"/>
 </p>
 <p align="center"><b>Figure 1:</b> System diagram.</p>
 </pre>
