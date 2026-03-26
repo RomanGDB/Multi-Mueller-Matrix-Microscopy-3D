@@ -34,7 +34,7 @@ In Fig. 2, the input and output Stokes vectors corresponding to the green channe
 <p align="center">
 <img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/d56d3730-2996-4de7-aec4-16e8d07d2d14" />
 </p>
-<p align="center"><b>Figure 2:</b> Input and Output Stokes matrix of a bee sample </p>
+<p align="center"><b>Figure 2:</b> Input and Output Stokes matrix </p>
 </pre>
 
 Then, by inverting the input Stokes matrix, the Mueller matrix can be estimated as:
