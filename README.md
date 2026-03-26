@@ -26,6 +26,7 @@ S_in =
   0           1           0           0
   0           0           0           1]
 </pre>
+which has a condition number of 3.2.
 
 In Fig. 2, the input and output Stokes vectors corresponding to the green channel are shown. It can be observed that the measured vectors do not exactly match the theoretical ones. However, this is not critical, since the main objective is to estimate the transformation matrix that maps one set of Stokes vectors into another, regardless of whether the individual states perfectly coincide with their expected values.
 
