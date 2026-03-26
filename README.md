@@ -10,7 +10,7 @@ Polarization is a fundamental property of light that can be modeled using four r
 <p align="center">
 <img width="600" alt="asdasd" src="https://github.com/user-attachments/assets/51942f32-6881-4255-add2-61a4bdb5fb0d"/>
 </p>
-<p align="center"><b>Figure 1:</b> System diagram.</p>
+<p align="center"><b>Figure 1:</b> System diagram and photo.</p>
 </pre>
 
 As shown in Fig. 1, the designed system consists of a set of 3D-printed parts and optical components that form a Mueller matrix microscope for research and laboratory use. The illumination is provided by an LED (Thorlabs M405LP1) mounted inside a housing, along with two lenses acting as a collector and a condenser. A motorized linear polarizer and a motorized achromatic quarter-wave plate (Thorlabs AQWP05M-580, zero-order, with a wavelength range of 350–850 nm) are included, both driven by stepper motors (BYJ48) controlled by a Raspberry Pi. The sample is placed on a 3D-printed stage, attached to a manual XYZ stage. A microscope objective captures the light diffracted by the sample, which is projected onto a polarized sensor (BFS-U3-51S5P-C) through a tube lens, which in our case is an Electrically Tunable Lens (Optotune 10-30-TC-VIS-12D, clear aperture 10mm).
@@ -36,7 +36,7 @@ Another important observation concerns the Stokes parameter S3, which was comput
 <p align="center">
 <img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/d56d3730-2996-4de7-aec4-16e8d07d2d14" />
 </p>
-<p align="center"><b>Figure 2:</b> Input and Output Stokes </p>
+<p align="center"><b>Figure 2:</b> Input and Output Stokes matrix </p>
 </pre>
 
 Then, by inverting the input Stokes matrix, the Mueller matrix can be estimated as:
@@ -100,7 +100,7 @@ https://www.python.org/downloads/
 3) Download and install Visual Code Studio (VCS)  
 https://code.visualstudio.com/  
 
-4) Download or clone my github
+4) Download or clone my github  
 https://github.com/RomanGDB/Mueller-Matrix-Microscopy/  
 
 5) Install Spinnaker SDK  
