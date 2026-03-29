@@ -28,7 +28,7 @@ S_in =
 </pre>
 which has a condition number of 3.2.
 
-In Animation 1, we can see the sequence of motor movements and their main purpose. Each set of angles (retarder axis angle and diattenuation axis angle) defines an input polarization state that illuminates the sample. We measure the corresponding Stokes vector for each input and output. Finally, using a parallelizable algorithm based on numpy.einsum, the Mueller matrix can be estimated in a single line of code in just a few seconds. The resulting Mueller matrix is a tensor of size 1024 × 1224 × 3 × 3 × 4, with 16-bit precision per element.
+In Animation 1, we can see the sequence of motor movements (left) and their main purpose, along with the Poincaré sphere representing the Stokes vector evolution (center) and the electric field polarization (right). Each set of angles (retarder axis angle and diattenuation axis angle) defines an input polarization state that illuminates the sample. We measure the corresponding Stokes vector for each input and output. Finally, using a parallelizable algorithm based on numpy.einsum, the Mueller matrix can be estimated in a single line of code in just a few seconds. The resulting Mueller matrix is a tensor of size 1024 × 1224 × 3 × 3 × 4, with 16-bit precision per element.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4434abfb-0077-4f49-a06c-7689e8bb7363" alt="procedure">
