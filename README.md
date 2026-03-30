@@ -6,7 +6,6 @@ Polarization is a fundamental property of light that can be modeled using four r
 
 ## Materials and Methodology
 
-<pre>
 <p align="center">
 <img width="600" alt="asdasd" src="https://github.com/user-attachments/assets/51942f32-6881-4255-add2-61a4bdb5fb0d"/>
 </p>
@@ -34,14 +33,15 @@ In Animation 1, we can see the sequence of motor movements (left), along with th
   <img src="https://github.com/user-attachments/assets/4434abfb-0077-4f49-a06c-7689e8bb7363" alt="procedure">
 </p>
 <p align="center"><b>Animation 1:</b> Mueller Matrix calculus procedure</p>
+</pre>
 
 In Fig. 2, the input and output Stokes vectors corresponding to the green channel are shown. It can be observed that the measured vectors do not exactly match the theoretical ones. However, this is not critical, since the main objective is to estimate the transformation matrix that maps one set of Stokes vectors into another, regardless of whether the individual states perfectly coincide with their expected values. Another important observation concerns the Stokes parameter S3, which was computed under the assumption of a degree of polarization (DoP) equal to 1. Its sign is initially assigned arbitrarily and is later validated through the analysis of the resulting polarimetric properties.
 
-<pre>
 <p align="center">
 <img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/d56d3730-2996-4de7-aec4-16e8d07d2d14" />
 </p>
 <p align="center"><b>Figure 2:</b> Input and Output Stokes matrix </p>
+</pre>
 
 Then, by inverting the input Stokes matrix, the Mueller matrix can be estimated as:
 
@@ -53,11 +53,11 @@ where S_out is obtained from the measured output intensities using the Stokes fo
 
 In Fig. 3, the transmittance and the corresponding Mueller matrix of a bee sample are presented. The Mueller matrix clearly deviates from the identity matrix, which corresponds to the response of air or vacuum. This deviation indicates that the sample alters the polarization state of the incident light, revealing its polarimetric properties.
 
-<pre>
 <p align="center">
 <img width="1431" height="490" alt="mueller" src="https://github.com/user-attachments/assets/5d1c7728-8e0b-4801-b952-c035fe34f1d6" />
 </p>
 <p align="center"><b>Figure 3:</b> Transmittance and Mueller matrix of a bee sample </p>
+</pre>
 
 Finally, Fig. 4 illustrates the Lu–Chipman decomposition. This algorithm is applied to extract the fundamental polarimetric properties: diattenuation, linear retardance, optical axis, and depolarization power. The Mueller matrix M can be expressed as the product of three Mueller matrices associated with depolarization, retardance, and diattenuation, respectively:
 
@@ -68,23 +68,23 @@ M = M<sub>Δ</sub> · M<sub>R</sub> · M<sub>D</sub>
 <p>
 where M<sub>Δ</sub> represents the depolarization matrix, M<sub>R</sub> the retardance matrix, and M<sub>D</sub> the diattenuation matrix. 
 </p>
-<pre>
+
 <p align="center">
 <img width="2120" height="489" alt="lu-chipman" src="https://github.com/user-attachments/assets/3d7c5fe4-5b7f-46a3-acfe-92a2e77c4e1a" />
 </p>  
 <p align="center"><b>Figure 4:</b> Lu-Chipman decomposition </p>
+</pre>
 
 In Fig. 5, the polarimetric properties can be observed: diattenuation (top left), linear retardance (top right), depolarization power (bottom left), and optical axis (bottom right). These properties reveal the sample’s dichroism, elasticity, surface roughness, and the orientation of its anisotropy.
 
-<pre>
 <p align="center">
 <img width="1553" height="1196" alt="D" src="https://github.com/user-attachments/assets/575468dd-00d6-43b8-985e-61bb4db83924" />
 </p>  
 <p align="center"><b>Figure 5:</b> Polarimetric properties </p>
+</pre>
 
 Finally, Fig. 6 presents the histograms of the extracted polarimetric properties. As can be observed, the values lie within physically meaningful ranges, demonstrating that the calculations were performed correctly.
 
-<pre>
 <p align="center">
 <img width="1200" height="790" alt="histograma" src="https://github.com/user-attachments/assets/b464fc7b-dbdf-42cf-85cf-93d3ff85f824" />
 </p>  
@@ -97,11 +97,11 @@ As a proof of applications, we propose two potential use cases: extension of the
 
 For EFoV, the sample stage is translated to different positions, and for each position, both the transmittance image and the corresponding Mueller matrix of the visible field of view are acquired. By applying an image stitching algorithm, the full dataset can be combined into a single panoramic reconstruction of the sample. This approach enables large-area analysis, which is particularly useful in histopathological diagnosis (see Fig. 7).
 
-<pre>
 <p align="center">
 <img width="1437" height="653" alt="Captura de pantalla 2026-03-30 185846" src="https://github.com/user-attachments/assets/01e50272-4d43-4274-b505-9356417d98e6" />
 </p>  
 <p align="center"><b>Figure 7:</b> EFoV results for a whole tissue sample </p>
+</pre>
 
 For EDoF, the electrically tunable lens (ETL) is driven with a set of different currents, allowing the system to focus at multiple depths within the sample. This enables the acquisition of depth-resolved information, providing insight into its three-dimensional structure. However, since the ETL is used as the TL, the effective magnification of the system varies with the focal setting. Therefore, an image registration algorithm is applied to align the entire dataset and reference it to a selected image. Finally, by applying an all-in-focus (AiF) algorithm, a fully focused image of the field of view can be obtained. This reduces the presence of out-of-focus regions, which may otherwise distort the measured polarimetric properties (see Anim. 2).
 
@@ -109,6 +109,7 @@ For EDoF, the electrically tunable lens (ETL) is driven with a set of different 
   <img src="https://github.com/user-attachments/assets/5687b755-4b99-4c2b-83d6-6bb7b01424d6">
 </p>
 <p align="center"><b>Animation 2:</b> Transmittance and polarimetric properties at different depths of the sample and its AiF reconstruction </p>
+</pre>
 
 ## Installation
 
