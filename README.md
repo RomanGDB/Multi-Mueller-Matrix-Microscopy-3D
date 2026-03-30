@@ -103,7 +103,7 @@ For EFoV, the sample stage is translated to different positions, and for each po
 
 <pre>
 <p align="center">
-<img width="1200" height="790" alt="histograma" src="https://github.com/user-attachments/assets/b464fc7b-dbdf-42cf-85cf-93d3ff85f824" />
+<img width="1437" height="653" alt="Captura de pantalla 2026-03-30 185846" src="https://github.com/user-attachments/assets/01e50272-4d43-4274-b505-9356417d98e6" />
 </p>  
 <p align="center"><b>Figure 7:</b> EFoV results for a whole tissue sample </p>
 </pre>
