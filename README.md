@@ -95,6 +95,25 @@ Finally, Fig. 6 presents the histograms of the extracted polarimetric properties
 <p align="center"><b>Figure 6:</b> Histogram of polarimetric properties </p>
 </pre>
 
+## Applications
+
+As a proof of applications, we propose two potential use cases: extension of the field of view (EFoV) and extension of the depth of field (EDoF).
+
+For EFoV, the sample stage is translated to different positions, and for each position, both the transmittance image and the corresponding Mueller matrix of the visible field of view are acquired. By applying an image stitching algorithm, the full dataset can be combined into a single panoramic reconstruction of the sample. This approach enables large-area analysis, which is particularly useful in histopathological diagnosis (see Animation 2).
+
+<pre>
+<p align="center">
+<img width="1200" height="790" alt="histograma" src="https://github.com/user-attachments/assets/b464fc7b-dbdf-42cf-85cf-93d3ff85f824" />
+</p>  
+<p align="center"><b>Figure 7:</b> EFoV results for a whole tissue sample </p>
+</pre>
+
+For EDoF, the electrically tunable lens (ETL) is driven with a set of different currents, allowing the system to focus at multiple depths within the sample. This enables the acquisition of depth-resolved information, providing insight into its three-dimensional structure. Finally, by applying an all-in-focus (AiF) algorithm, a fully focused image of the field of view can be obtained. This reduces the presence of out-of-focus regions, which may otherwise distort the measured polarimetric properties (see Fig. 7).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5687b755-4b99-4c2b-83d6-6bb7b01424d6">
+</p>
+<p align="center"><b>Animation 2:</b> Transmittance and polarimetric properties at different depths of the sample and its AiF reconstruction </p>
 
 ## Installation
 
