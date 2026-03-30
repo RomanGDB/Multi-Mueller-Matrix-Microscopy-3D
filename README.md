@@ -151,6 +151,7 @@ Roman Demczylo & Ariel Fernández, *Single-shot 3×3 Mueller matrix microscopy w
 
 Roman Demczylo, Diego Silva, Federico Lecumberry, Ariel Fernández, *Field of view extension in Mueller matrix microscopy for whole-slide imaging of biological samples*, Results in Optics, 2025.
 
+Roman Demczylo, Diego Silva, Estefany Bica, Juan Llaguno, Alejandro Silva, Federico Lecumberry, Julia Alonso, Ariel Fernández, *Field of view and depth of field extension in Mueller matrix microscopy*, Polarized Light and Optical Angular Momentum for Biomedical Diagnostics, 2026.
 
 ## Contact
 
