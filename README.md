@@ -42,7 +42,6 @@ In Fig. 2, the input and output Stokes vectors corresponding to the green channe
 <img width="1499" height="490" alt="stokes" src="https://github.com/user-attachments/assets/d56d3730-2996-4de7-aec4-16e8d07d2d14" />
 </p>
 <p align="center"><b>Figure 2:</b> Input and Output Stokes matrix </p>
-</pre>
 
 Then, by inverting the input Stokes matrix, the Mueller matrix can be estimated as:
 
@@ -59,7 +58,6 @@ In Fig. 3, the transmittance and the corresponding Mueller matrix of a bee sampl
 <img width="1431" height="490" alt="mueller" src="https://github.com/user-attachments/assets/5d1c7728-8e0b-4801-b952-c035fe34f1d6" />
 </p>
 <p align="center"><b>Figure 3:</b> Transmittance and Mueller matrix of a bee sample </p>
-</pre>
 
 Finally, Fig. 4 illustrates the Lu–Chipman decomposition. This algorithm is applied to extract the fundamental polarimetric properties: diattenuation, linear retardance, optical axis, and depolarization power. The Mueller matrix M can be expressed as the product of three Mueller matrices associated with depolarization, retardance, and diattenuation, respectively:
 
@@ -75,7 +73,6 @@ where M<sub>Δ</sub> represents the depolarization matrix, M<sub>R</sub> the ret
 <img width="2120" height="489" alt="lu-chipman" src="https://github.com/user-attachments/assets/3d7c5fe4-5b7f-46a3-acfe-92a2e77c4e1a" />
 </p>  
 <p align="center"><b>Figure 4:</b> Lu-Chipman decomposition </p>
-</pre>
 
 In Fig. 5, the polarimetric properties can be observed: diattenuation (top left), linear retardance (top right), depolarization power (bottom left), and optical axis (bottom right). These properties reveal the sample’s dichroism, elasticity, surface roughness, and the orientation of its anisotropy.
 
@@ -84,7 +81,6 @@ In Fig. 5, the polarimetric properties can be observed: diattenuation (top left)
 <img width="1553" height="1196" alt="D" src="https://github.com/user-attachments/assets/575468dd-00d6-43b8-985e-61bb4db83924" />
 </p>  
 <p align="center"><b>Figure 5:</b> Polarimetric properties </p>
-</pre>
 
 Finally, Fig. 6 presents the histograms of the extracted polarimetric properties. As can be observed, the values lie within physically meaningful ranges, demonstrating that the calculations were performed correctly.
 
@@ -106,7 +102,6 @@ For EFoV, the sample stage is translated to different positions, and for each po
 <img width="1437" height="653" alt="Captura de pantalla 2026-03-30 185846" src="https://github.com/user-attachments/assets/01e50272-4d43-4274-b505-9356417d98e6" />
 </p>  
 <p align="center"><b>Figure 7:</b> EFoV results for a whole tissue sample </p>
-</pre>
 
 For EDoF, the electrically tunable lens (ETL) is driven with a set of different currents, allowing the system to focus at multiple depths within the sample. This enables the acquisition of depth-resolved information, providing insight into its three-dimensional structure. However, since the ETL is used as the TL, the effective magnification of the system varies with the focal setting. Therefore, an image registration algorithm is applied to align the entire dataset and reference it to a selected image. Finally, by applying an all-in-focus (AiF) algorithm, a fully focused image of the field of view can be obtained. This reduces the presence of out-of-focus regions, which may otherwise distort the measured polarimetric properties (see Anim. 2).
 
